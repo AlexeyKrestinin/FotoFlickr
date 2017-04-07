@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		8A1E1E4A1E92D3E600309817 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1E1E491E92D3E600309817 /* AppDelegate.swift */; };
-		8A1E1E4C1E92D3E600309817 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1E1E4B1E92D3E600309817 /* ViewController.swift */; };
 		8A1E1E4F1E92D3E600309817 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A1E1E4D1E92D3E600309817 /* Main.storyboard */; };
 		8A1E1E511E92D3E600309817 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A1E1E501E92D3E600309817 /* Assets.xcassets */; };
 		8A1E1E541E92D3E600309817 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A1E1E521E92D3E600309817 /* LaunchScreen.storyboard */; };
+		8A1E1E5E1E93DDCE00309817 /* TopPlacesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1E1E5D1E93DDCE00309817 /* TopPlacesTableViewController.swift */; };
+		8A1E1E621E940E1200309817 /* TopPlacesAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1E1E611E940E1200309817 /* TopPlacesAPI.swift */; };
+		8A1E1E661E94F0A600309817 /* TopPlacesInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1E1E651E94F0A600309817 /* TopPlacesInfo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8A1E1E461E92D3E600309817 /* FotoFlickr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FotoFlickr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A1E1E491E92D3E600309817 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8A1E1E4B1E92D3E600309817 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8A1E1E4E1E92D3E600309817 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8A1E1E501E92D3E600309817 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8A1E1E531E92D3E600309817 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8A1E1E551E92D3E600309817 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A1E1E5D1E93DDCE00309817 /* TopPlacesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TopPlacesTableViewController.swift; path = ../TopPlacesTableViewController.swift; sourceTree = "<group>"; };
+		8A1E1E611E940E1200309817 /* TopPlacesAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TopPlacesAPI.swift; path = ../TopPlacesAPI.swift; sourceTree = "<group>"; };
+		8A1E1E651E94F0A600309817 /* TopPlacesInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TopPlacesInfo.swift; path = ../TopPlacesInfo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +58,10 @@
 		8A1E1E481E92D3E600309817 /* FotoFlickr */ = {
 			isa = PBXGroup;
 			children = (
+				8A1E1E651E94F0A600309817 /* TopPlacesInfo.swift */,
+				8A1E1E611E940E1200309817 /* TopPlacesAPI.swift */,
+				8A1E1E5D1E93DDCE00309817 /* TopPlacesTableViewController.swift */,
 				8A1E1E491E92D3E600309817 /* AppDelegate.swift */,
-				8A1E1E4B1E92D3E600309817 /* ViewController.swift */,
 				8A1E1E4D1E92D3E600309817 /* Main.storyboard */,
 				8A1E1E501E92D3E600309817 /* Assets.xcassets */,
 				8A1E1E521E92D3E600309817 /* LaunchScreen.storyboard */,
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A1E1E4C1E92D3E600309817 /* ViewController.swift in Sources */,
 				8A1E1E4A1E92D3E600309817 /* AppDelegate.swift in Sources */,
+				8A1E1E661E94F0A600309817 /* TopPlacesInfo.swift in Sources */,
+				8A1E1E621E940E1200309817 /* TopPlacesAPI.swift in Sources */,
+				8A1E1E5E1E93DDCE00309817 /* TopPlacesTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,6 +312,7 @@
 				8A1E1E5A1E92D3E600309817 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
